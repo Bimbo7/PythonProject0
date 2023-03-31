@@ -17,7 +17,7 @@ if len(password) >= 8:
     else:
         print("Weak password!")
 else:
-    print("Password must be at least 8 characters long!")
+    print("Password should be at least 8 characters long!")
 import re
 
 def check_password_strength(password):
@@ -28,3 +28,4 @@ def check_password_strength(password):
 
     Args:
         password (str): The password to be checked.
+
